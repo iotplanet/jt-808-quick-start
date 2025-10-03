@@ -1,0 +1,68 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+!.idea/dictionaries/*
+!.idea/icon.png
+!.idea/icon.svg
+.idea/*
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Vue
+docs/.idea/
+docs/node_modules
+docs/src/.vuepress/.cache
+docs/src/.vuepress/.temp
+docs/src/.vuepress/dist
+logs/
+*.drawio.bkp
+
+node_modules/
+target/
+
+/debug/**/.idea/
+/debug/jt/jt-808-server-spring-boot-starter-reactive-debug/src/main/resources/static/
+/ext/jt/jt-808-server-dashboard-spring-boot-starter-reactive/src/main/resources/static/dashboard/
+/dev-tools-local/
+/debug/jt/jt-808-server-spring-boot-starter-reactive-debug/src/main/resources/application-node3.yaml
+/quick-start/jt/jt-808-server-quick-start-with-storage-nonblocking/src/main/resources/application-node3.yaml
+/quick-start/jt/jt-808-server-quick-start-with-storage-nonblocking/src/main/resources/static/quickstart-ui/
+
+/quick-start/jt/jt-808-server-quick-start-with-storage-blocking/src/main/resources/application-node3.yaml
+/quick-start/jt/jt-808-server-quick-start-with-storage-blocking/src/main/resources/static/quickstart-ui/
+/quick-start/jt/jt-1078-server-quick-start-nonblocking/src/main/resources/static/quickstart-ui/
+/quick-start/jt/jt-1078-server-quick-start-blocking/src/main/resources/static/quickstart-ui/
+/ext/jt/jt-1078-server-spring-boot-starter-reactive/mock-data/
