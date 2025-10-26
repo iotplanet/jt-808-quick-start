@@ -17,7 +17,7 @@
     <properties>
         <java.version>21</java.version>
         <spring-boot.version>3.5.6</spring-boot.version>
-        <xtream-codec.version>0.1.1-alpha.13.git.ab26578</xtream-codec.version>
+        <xtream-codec.version>0.3.0</xtream-codec.version>
 
         <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
 
@@ -93,7 +93,7 @@
         </plugins>
     </build>
     <repositories>
-        <repository>
+        <!-- <repository>
             <id>aliyun</id>
             <name>aliyun maven</name>
             <url>https://maven.aliyun.com/nexus/content/repositories/central/</url>
@@ -105,6 +105,6 @@
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
-        </repository>
+        </repository> -->
     </repositories>
 </project>
